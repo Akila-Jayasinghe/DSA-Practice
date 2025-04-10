@@ -8,9 +8,6 @@ public class Action {
         this.text = text;
     }
 
-    
-
-    @override
     public String toString() {
         return ("The user " + event.toLowerCase() + "ed text: '" + text + "' \n");
     }
